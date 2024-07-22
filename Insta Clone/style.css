@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+.profile{
+    border-radius: 5px;
+    height: 650px;
+    width: 350px;
+    background-color:#eee;
+    margin:20px 0 0 10px;
+    position: fixed;
+    text-align: left;
+}
+#biodata{
+    text-align: center;
+    color:#333;
+    
+    margin: 5px;
+}
+p{
+    padding: 5px;
+}
+.image{
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content:center;
+    margin-left:3%;
+    border: 1px solid #f8f8f8;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 450;
+    padding: 10px;
+}
+.follower{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 450;
+    margin-left: 20px;
+
+    
+}
+.data p1 {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 0.9rem; /* Set font size */
+    font-weight: 500;
+}
+ .data p1 i{
+    margin-right: 5px; /* Add margin between icon and text */
+    font-size: 0.8rem;
+    font-weight: 30rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 0 20px; /* Add padding to align elements properly */
+   
+}
+.header-content{
+    padding: 20px;
+    
+}
+.search{
+    display: flex;
+    
+    background-color: #f8f8f8;
+    width: 100px;
+    height: 2.4rem; 
+    
+}
+.search-input{
+    
+    background: transparent;
+    margin-left: 7px;
+}
+
